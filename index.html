@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <style>
+
+  body {
+  margin: 25px;
+ }
+  }
+  #container {
+  	width: 120px;
+    height: 100px;
+    border: 1px solid;
+    font-size: 50px;
+    text-align: center;
+	vertical-align: middle;
+	line-height: 100px; 
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+	$( function() {
+	$( "#tabs" ).tabs();
+	  } );
+  </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.min.js"> </script>
+<script>
+_u = _.noConflict();
+</script>
+</head>
+<body>
+
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Are you under 5'4"?</a></li>
+    <li><a href="#tabs-2">Are you 5'4" or taller?</a></li>
+  </ul>
+  <div id="tabs-1">
+<img src="https://i.imgur.com/cICZuN0.png">
+  </div>
+  <div id="tabs-2">
+<img src="https://i.imgur.com/szzuZk5.png">
+  </div>
+</div>
+
+</body>
+</html>
